@@ -7,19 +7,19 @@ import Link from 'next/link';
 export const Footer = () => {
     const links = [
         {
-            href: 'https://twitter.com/BenVFXs',
+            href: '/',
             icon: <XIcon className='h-8 w-8'/>
         },
         {
-            href: 'https://www.instagram.com/benl3e/',
+            href: '/',
             icon: <InstagramIcon className='h-9 w-9'/>
         },
         {
-            href: 'https://www.youtube.com/@Vfxbenlee',
+            href: '/',
             icon: <YouTubeIcon className='h-10 w-10'/>
         },
         {
-            href: 'mailto:vfxbenlee@gmail.com',
+            href: '/',
             icon: <EmailIcon className='h-8 w-8'/>
         }
     ]
@@ -35,8 +35,8 @@ export const Footer = () => {
                 ))}
                 
             </div>
-            <p className='text-sm text-slate-100/50'>vfxbenlee@gmail.com</p>
-            <p className='text-sm text-slate-100/50'>© Ben. All rights reserved.</p>
+            <p className='text-sm text-slate-100/50'>email@gmail.com</p>
+            <p className='text-sm text-slate-100/50'>© All rights reserved.</p>
         </div>
     )
 }

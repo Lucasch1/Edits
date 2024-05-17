@@ -8,7 +8,7 @@ export const Calendly = () => {
                 <div className="flex items-center justify-center">
                     <Separator className="mt-3 bg-slate-100/20 h-0.5 w-40" />
                 </div>
-                <InlineWidget url="https://calendly.com/benvfxs/30min" styles={{"height": "1000px", "borderRadius": "5px"}}/>
+                <InlineWidget url="https://calendly.com/lucasch2011/30min" styles={{"height": "1000px", "borderRadius": "5px"}}/>
                 
             </div>
     )

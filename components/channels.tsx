@@ -5,28 +5,19 @@ import { Avatar } from "@mui/material"
 export const Channels = () => {
     const channels = [
         {
-            logo: '/alpha.jpeg',
-            name: 'Alpha',
-            subs: '200,000',
-            link: 'https://www.youtube.com/@AlphaCentralOfficial'
+            logo: '/app_logo.png',
+            name: 'Goals Brasil',
+            link: 'https://www.goalsbrasil.com/'
         },
         {
-            logo: '/frazer.jpeg',
-            name: 'Brookes',
-            subs: '70,000',
-            link: 'https://www.youtube.com/@FrazerBrookesChannel'
+            logo: '/logoec.png',
+            name: 'EventChain',
+            link: 'https://eventchain-two.vercel.app/'
         },
         {
-            logo: '/dan.jpg',
-            name: 'Dan Kieft',
-            subs: '14,000',
-            link: 'https://www.youtube.com/@Dankieft'
-        },
-        {
-            logo: '/joe.jpeg',
-            name: 'Joe Leech',
-            subs: '30,000',
-            link: 'https://www.youtube.com/@Joe_Leech'
+            logo: '/Ativo2.png',
+            name: 'Dotnova',
+            link: 'https://www.dotnova.io/'
         },
     ]
     // Avatar Styles
@@ -45,7 +36,7 @@ export const Channels = () => {
       };
     return (
         <div className="text-center">
-                <h1 className="pb-4 font-bold tracking-tight text-5xl lg:text-6xl ">Channels I've Worked With</h1>
+                <h1 className="pb-4 font-bold tracking-tight text-5xl lg:text-6xl ">Compannies we worked with</h1>
                 <div className="flex items-center justify-center">
                     <Separator className="mt-3 bg-slate-100/20 h-0.5 w-40" />
                 </div>
@@ -58,7 +49,6 @@ export const Channels = () => {
                             <Avatar src={channel.logo} alt={channel.name} sx={style}/>
                             </Link>
                             <h1 className="font-semibold text-xl mt-4">{channel.name}</h1>
-                            <p className="text-lg mt-2">{channel.subs} subs</p>
                         </div>
                     </div>
                 ))}
